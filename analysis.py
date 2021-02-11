@@ -82,7 +82,7 @@ print("no of lines", len(edges))
 edges = list(edges.keys())
 
 while True:
-    inp = input()
+    inp = input("write the slno ")
     if inp != 'exit':
         line = edges[int(inp) - 1]
         line = line.split("_")
